@@ -83,7 +83,7 @@
   Output: "Comparing the first row with those below it, we see that the first sample has a much larger effect on the slope (the x column) than other samples. In fact, the magnitude of its effect is about 100 times that of any other point. Its effect on the intercept is not very distinctive essentially because its y coordinate is 0, the mean of the other samples."
 
 - Class: figure
-  Output: "When a sample is included in a model, it pulls the regression line closer to itself (orange line) than that of the model which excludes it (black line.) Its residual, the difference between its actual y value and that of a regression line, is thus smaller in magnitude when it is included (orange dots) than when it is omitted (black dots.) The ratio of these two residuals, orange to black, is therefore small in magnitude for an influential sample. For a sample which is not influential the ratio would be close to 1. Hence, 1 minus the ratio is a measure of influence, near 0 for points which are not influential, and near 1 for points which are."
+  Output: "When an outlier is included in a model, it pulls the regression line closer to itself (orange line) than that of the model which excludes it (black line). Its residual, the difference between its actual y value and that of a regression line, is thus smaller in magnitude when it is included (orange dots) than when it is omitted (black dots). The ratio of these two residuals, orange to black, is therefore small in magnitude for an influential outlier. For a outlier which is not influential the ratio would be close to 1. Hence, 1 minus the ratio is a measure of influence, near 0 for points which are not influential, and near 1 for points which are."
   Figure: hatvalues.R
   FigureType: new
 
